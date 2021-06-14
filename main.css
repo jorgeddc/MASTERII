@@ -1,0 +1,24 @@
+@import url(navegador.css);
+@import url(fondo-principal.css);
+@import url(responsive-home.css);
+/* @import url(partners.css);
+@import url(servicios.css);
+@import url(contacto.css);
+@import url(copyright.css); */
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+      scroll-behavior: smooth;
+}
+:root {
+    --color-narmaster: #f27d0c;
+    --color-marmaster: #624b1c;
+    --color-grismaster: #999999;
+    --color-farmanager: #2dc937;
+    --color-fondofarmanager:#F6FCF9;
+    --color-white:#fff;
+    --color-blue:#01cdfe
+}

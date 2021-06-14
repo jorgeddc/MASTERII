@@ -1,0 +1,114 @@
+/*prueba con git*/
+.seccionservicios {
+    margin-top:50px;
+    width:100%;
+    height:100vh;
+    background-image: url(serviciosFoto.svg);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position: left;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+
+
+.seccionservicios h1 {
+    font-size: 40px;
+    text-transform:uppercase;
+    width:1050px;
+    border-top:3px solid darkblue;
+    text-align:center;
+}
+
+.cabezera {
+   width:100%;
+   height: auto;
+   color:white;
+   background-color:black;
+   text-align:center;
+   text-transform: uppercase;
+   border:3px solid darkblue;
+}
+.contenedorservicios {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:10px;
+    background:#fff;
+    
+   
+}
+
+.seviciosremotos {
+     width:350px;
+    height:350px;
+    
+     display:flex;
+    justify-content:flex-start;
+    flex-direction:column;
+    background:#f4f4f4;
+    
+    
+    
+}
+
+.remotos {
+    text-transform: uppercase;
+    width:100%;
+      
+    background-color:lightgreen;
+    text-align:center;
+ margin-bottom: 100px;
+
+
+}
+
+.remotostexto {
+   height:250px;
+   border-bottom:3px solid lightgreen;
+}
+.serviciosservicios {
+     width:350px;
+    height:350px;
+    
+     display:flex;
+    justify-content:flex-start;
+    flex-direction:column;
+    background:#f4f4f4;
+}
+.serviciosplan {
+      text-transform: uppercase;
+    width:100%;
+      
+    background-color:#fffccc;
+    text-align:center;
+ margin-bottom: 100px;
+}
+.serviciostexto {
+   height:250px;
+   border-bottom:3px solid #fffccc;
+}
+
+.serviciosintegrales {
+       width:350px;
+    height:350px;
+    
+     display:flex;
+    justify-content:flex-start;
+    flex-direction:column;
+    background:#f4f4f4;
+}
+
+.integrales {
+       text-transform: uppercase;
+    width:100%;
+      
+    background-color:#d13a3a;
+    text-align:center;
+ margin-bottom: 100px;
+}
+.integralestexto {
+   height:250px;
+   border-bottom:3px solid #d13a3a; 
+}
