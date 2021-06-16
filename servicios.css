@@ -1,4 +1,3 @@
-/*prueba con git*/
 .seccionservicios {
     margin-top:50px;
     width:100%;
@@ -18,24 +17,25 @@
     font-size: 40px;
     text-transform:uppercase;
     width:1050px;
-    border-top:3px solid darkblue;
+    border-top:3px solid var(--color-darkblue);
     text-align:center;
 }
 
 .cabezera {
    width:100%;
    height: auto;
-   color:white;
+   color:var(--color-white);
    background-color:black;
    text-align:center;
    text-transform: uppercase;
-   border:3px solid darkblue;
+   border:3px solid var(--color-darkblue);
 }
+
 .contenedorservicios {
     display:grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap:10px;
-    background:#fff;
+    background:var(--color-white);
     
    
 }
@@ -47,7 +47,7 @@
      display:flex;
     justify-content:flex-start;
     flex-direction:column;
-    background:#f4f4f4;
+    background:var(--color-darkwhite);
     
     
     
@@ -57,7 +57,7 @@
     text-transform: uppercase;
     width:100%;
       
-    background-color:lightgreen;
+    background-color:var(--color-farmanager);
     text-align:center;
  margin-bottom: 100px;
 
@@ -66,7 +66,7 @@
 
 .remotostexto {
    height:250px;
-   border-bottom:3px solid lightgreen;
+   border-bottom:3px solid var(--color-farmanager);
 }
 .serviciosservicios {
      width:350px;
@@ -75,19 +75,19 @@
      display:flex;
     justify-content:flex-start;
     flex-direction:column;
-    background:#f4f4f4;
+    background:var(--color-darkwhite);
 }
 .serviciosplan {
       text-transform: uppercase;
     width:100%;
       
-    background-color:#fffccc;
+    background-color:var(--color-white);
     text-align:center;
  margin-bottom: 100px;
 }
 .serviciostexto {
    height:250px;
-   border-bottom:3px solid #fffccc;
+   border-bottom:3px solid var(--color-white);
 }
 
 .serviciosintegrales {
@@ -97,18 +97,18 @@
      display:flex;
     justify-content:flex-start;
     flex-direction:column;
-    background:#f4f4f4;
+    background:var(--color-darkwhite);
 }
 
 .integrales {
        text-transform: uppercase;
     width:100%;
       
-    background-color:#d13a3a;
+    background-color:var(--color-red);
     text-align:center;
  margin-bottom: 100px;
 }
 .integralestexto {
    height:250px;
-   border-bottom:3px solid #d13a3a; 
+   border-bottom:3px solid var(--color-red); 
 }

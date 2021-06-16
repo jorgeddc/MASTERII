@@ -2,7 +2,7 @@
 .fondo {
     max-width: 100%;
     max-height: 85%;
-    background-image: url(fondo.jpeg);
+    background-image: url(/imagenes/fondo.jpeg);
     background-size: cover; 
     /* /background-attachment: fixed; */
       background-repeat: no-repeat; 

@@ -20,5 +20,8 @@
     --color-farmanager: #2dc937;
     --color-fondofarmanager:#F6FCF9;
     --color-white:#fff;
-    --color-blue:#01cdfe
+    --color-darkwhite:#f4f4f4;
+    --color-blue:#01cdfe;
+    --color-darkblue:darkblue;
+    --color-red:#d13a3a;
 }
