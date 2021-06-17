@@ -1,0 +1,17 @@
+@media (max-width:1800px){
+    .contenedorSlide h1
+{
+    flex-direction:column;
+   
+}
+.textTransition
+{
+    top:40px;
+    left:480px;
+}
+.negocio {
+   position:absolute;
+   top:80px;
+   left:490px;
+}
+}
