@@ -21,43 +21,54 @@
     
 }
 
-.contenedorSlide{
+.contenedorSlide {
+    margin-top:100px;
     width:100%;
+
     height:100vh;
-    margin-top:50px;
-    height:auto;
-    display:flex;
-    justify-content: space-around;
-    flex-wrap:wrap;
-    align-items: flex-start;
+    display:grid;
     position:relative;
     z-index:145;
-    padding:25px;
-    top:-40px;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows:250px 1fr;
   
     
 }
-.contenedorSlide h1{
+.oficial-somos {
     width:100%;
-    position:relative;
-    top:50px;
+
     display:flex;
-    justify-content: space-around;
-    text-align:center;
-    margin-top:90px;
-    border-radius: 66px;
-    text-transform:uppercase;
-    letter-spacing: 5px;;
+    padding:0 34.2em;
+    justify-content:space-between;
+    align-items:center;
+    background-color: darkcyan;
+    grid-column:1/ span 3;
+    
+
    }
 
+   .oficial-negocio{
+      
+       display:flex;
+    justify-content:center;
+    align-items:center;
+     
+   }
 
+   .contenedor-transition
+   {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   }
  .textTransition {
+ 
+    
      width:220px;;
      height: 40px;
      color:black;
-     position:absolute;
-     top:0;
-     left:54.5%;
+     font-size:25px;
+     text-align:center;
      overflow: hidden;
      border:2px solid #ccc;
      background:black;
@@ -65,11 +76,7 @@
      border-radius:40px;
  }
          
-    .negocio {
-        position:relative;
-        left:-150px;
-
-    }
+   
      
 @keyframes colorFondo {
      0% {
@@ -134,7 +141,7 @@
     
     50%
     {
-        top:-74px;
+        top:-79px;
      
             
     }
@@ -155,17 +162,21 @@
     width:350px;
     height:250px;
    
-    
+   
     
 }
 
 .itemslide1 {
+    background:darkred;
     position:relative;
     width:350px;
     height:250px;
     z-index:250;
+    margin-left:150px;
+   
 }
 .itemslide1 button {
+    
     border:none;
     width:100%;
     background-color: none;
@@ -211,6 +222,9 @@
     position:relative;
     width:350px;
     height:250px;
+    margin-left:150px;
+   
+    
     
 }
 .itemslidefondo2{
@@ -246,6 +260,8 @@
     position:relative;
     width:350px;
     height:250px;
+    margin-left:150px;
+   
     
 }
 .itemslidefondo3{
