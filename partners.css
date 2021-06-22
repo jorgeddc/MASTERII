@@ -34,9 +34,15 @@
 .contenedor-paragraph div {
     margin-left:20px;
 }
+<<<<<<< HEAD
 /* .oficial-somos {
     width:100%;
    
+=======
+.oficial-somos {
+   
+     width:110%;
+>>>>>>> 0bd947de4e68adac778b67709bb5b88a49634cdb
     display:flex;
     padding:0 34.2em;
     justify-content:space-between;
@@ -46,13 +52,21 @@
     
 
    }
+   .oficial-somos h1 {
+       margin-left:-450px;
+       width:auto;
+       font-size:2.5vw;
+   }
 
    .oficial-negocio{
       
-       display:flex;
+    display:flex;
     justify-content:center;
     align-items:center;
      
+   }
+   .oficial-negocio h1 {
+       margin-left:-150px;
    }
 
    .contenedor-transition
@@ -60,7 +74,13 @@
     display:flex;
     justify-content:center;
     align-items:center;
+<<<<<<< HEAD
    } */
+=======
+    position:relative;
+    left:-150px;
+   }
+>>>>>>> 0bd947de4e68adac778b67709bb5b88a49634cdb
  .textTransition {
  
     
@@ -74,6 +94,7 @@
      background:black;
      animation:colorFondo 5s ease infinite; 
      border-radius:40px;
+    margin-left:-460px;
  }
          
    
