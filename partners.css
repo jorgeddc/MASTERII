@@ -1,4 +1,4 @@
-.partners {
+/* .partners {
    
     width:100%;
     height:100vh;
@@ -6,9 +6,9 @@
     display:flex;
     align-content: center;
 
-}
+} */
 
-.fondoPartners {
+/* .fondoPartners {
     width:100%;
     height:100vh;
     z-index:1;
@@ -19,24 +19,24 @@
     opacity:0.5;
     
     
-}
+} */
 
-.contenedorSlide {
-    margin-top:100px;
+
+
+  .contenedor-paragraph {
     width:100%;
-
-    height:100vh;
-    display:grid;
-    position:relative;
-    z-index:145;
-    grid-template-columns: repeat(3 , 1fr);
-    grid-template-rows:250px 1fr;
-  
-    
+    height:500px;
+    background-color:darkgoldenrod;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+.contenedor-paragraph div {
+    margin-left:20px;
 }
-.oficial-somos {
+/* .oficial-somos {
     width:100%;
-
+   
     display:flex;
     padding:0 34.2em;
     justify-content:space-between;
@@ -60,7 +60,7 @@
     display:flex;
     justify-content:center;
     align-items:center;
-   }
+   } */
  .textTransition {
  
     
@@ -156,8 +156,34 @@
     }
 }
 
+/* ASOCIADOS CASH FARAM NOD */
+.contenedor-item-slide
+{
+    
+    width:105%;
+    height:100vh;
+  
+    
+   background-color:darkcyan;
+   padding:10px 250px;
+    
 
+}
+.contenedorSlide {
+   
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content: space-between;
+    align-items:start;
+    position:relative;
+    z-index: 150;
+    
+  
+  
+    
 
+}
 .contenedorSlide img {
     width:350px;
     height:250px;
@@ -167,12 +193,12 @@
 }
 
 .itemslide1 {
-    background:darkred;
+    margin:10px;
     position:relative;
     width:350px;
     height:250px;
     z-index:250;
-    margin-left:150px;
+  
    
 }
 .itemslide1 button {
@@ -222,7 +248,8 @@
     position:relative;
     width:350px;
     height:250px;
-    margin-left:150px;
+    margin:10px;
+ 
    
     
     
@@ -260,7 +287,8 @@
     position:relative;
     width:350px;
     height:250px;
-    margin-left:150px;
+    margin:10px;
+  
    
     
 }
