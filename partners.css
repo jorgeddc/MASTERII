@@ -34,15 +34,9 @@
 .contenedor-paragraph div {
     margin-left:20px;
 }
-<<<<<<< HEAD
 /* .oficial-somos {
     width:100%;
    
-=======
-.oficial-somos {
-   
-     width:110%;
->>>>>>> 0bd947de4e68adac778b67709bb5b88a49634cdb
     display:flex;
     padding:0 34.2em;
     justify-content:space-between;
@@ -74,13 +68,7 @@
     display:flex;
     justify-content:center;
     align-items:center;
-<<<<<<< HEAD
    } */
-=======
-    position:relative;
-    left:-150px;
-   }
->>>>>>> 0bd947de4e68adac778b67709bb5b88a49634cdb
  .textTransition {
  
     
