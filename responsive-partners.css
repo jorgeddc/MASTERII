@@ -10,7 +10,7 @@
 
 @media  (max-width:850px){
     .contenedor-paragraph {
-        padding:px;
+        margin-top:32px;
         width:100%;
         height:300px;
         background-color:darkgoldenrod;

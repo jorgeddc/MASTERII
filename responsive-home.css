@@ -1,5 +1,5 @@
 
-       @media screen and (max-width:800px)
+       @media screen and (max-width:1041px)
        {
         .logo {display:none;}
         .navegador {display:none;}
@@ -7,16 +7,70 @@
         .contenedor-principal-navegador{display:none;}
         .contenedorNavegador{display:none;}
         .bajar {display:none;} 
-           
-            .servicio {
+        /* .empresaDescripcion .S {display:none}
+        .empresaDescripcion .C {display:none}
+        .empresaDescripcion .T {display:none} */
+        /* .parrafos {display:none} */
+
+        .servicio {
                
                 position:relative;
                 font-size:45px;
                 left: 2%;
                 top: 10px;
-                 }   
+                 } 
+         .empresaDescripcion {
+                     
+                     width:100%;
+                     display:flex;
+                     justify-content: center;
+                 }     
        
-       }
+                .S  ,.C {
+                    
+                    font-size:60px;
+                    position:relative;
+                    top:30px;
+                    left:-50px;
+                }
+                .T
+                {
+                    font-size:60px;
+                    position:relative;
+                    left:-100px;
+                    top:10px;
+                }
+                    
+                .contenedor-descripcion-parrafos 
+                    {
+
+                    width: 80%;
+                    text-align:center;
+                    padding:0;
+                    line-height: 20px;
+                    
+
+
+                    }
+.contenedor-descripcion-parrafos .parrafo1 {
+                        margin-top:100px;
+                        left: 25px;
+                        padding:10px;
+                        
+                         
+                        font-size:20px;
+                       
+                       
+                    }
+  .contenedor-descripcion-parrafos  .parrafo2 {
+                        left: 25px;
+                        padding:10px;
+                        
+                        font-size:20px;
+                      
+                    } 
+        
+       
    /*************   1050 px ***************/
    @media screen and (max-width:1050px)
    {
@@ -29,18 +83,21 @@
   
 
 
-    .fondo{
-        min-width:105%;
+    .contenedor-home{
+        min-width:100%;
         top:55px;
         background-position:center;
         
+        
         }
-        .descripcionEmpresa {
+        .empresaDescripcion {
             width: 100%;
             height: 100vh;
             background-color:rgba(0,0,0,0.5);
             clip-path: inset(0 0 0 0);
-            align-items: center;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items:center;
             position: relative;
             animation: transparente 1s linear;
         
@@ -56,39 +113,14 @@
              }
              
 
-            .S {
-                font-size:60px;
-                left: 12%;
-                top: 10px;
-                 }     
             
-                     .C {
-                font-size:60px;
-                left: 40%;
-                top: 70px;}         
-               
-            
-                      .T {
-                font-size:60px;
-                left: 68%;
-                top: 150px;}
-            
-                .parrafo1 {
+                   .titular {
+                       margin:0;
+                       padding:0;
                     
-                    left: 25px;
-                    padding:10px;
-                    top: 250px;
-                    font-size:25px;
-                   
-                   
-                }
-                .parrafo2 {
-                    left: 25px;
-                    padding:10px;
-                    top: 420px;
-                    font-size:25px;
-                  
-                }
+                       margin-top:20px;
+                      }
+           
         
 
                 
@@ -253,7 +285,7 @@
 
 
 
-                                  /* SLIDE INFORMACION ************************************************************/
+  /* SLIDE INFORMACION ************************************************************/
  
  .informacion {
        
