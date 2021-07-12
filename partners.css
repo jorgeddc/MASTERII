@@ -1,32 +1,10 @@
-/* .partners {
-   
-    width:100%;
-    height:100vh;
-    background-color:white;
-    display:flex;
-    align-content: center;
-
-} */
-
-/* .fondoPartners {
-    width:100%;
-    height:100vh;
-    z-index:1;
-    background-color:#ccc;
-    clip-path: polygon(0 0, 44.9% 0, 100% 100%, 0% 100%);
-    position:absolute;
-    top:920px;
-    opacity:0.5;
-    
-    
-} */
-
 
 
   .contenedor-paragraph {
-    width:100%;
-    height:500px;
-    background-color:darkgoldenrod;
+    margin-top:150px;
+     width:100%;
+    height:200px;
+    /* background-color:darkgoldenrod; */
     display:flex;
     justify-content:center;
     align-items:center;
@@ -34,44 +12,18 @@
 .contenedor-paragraph div {
     margin-left:20px;
 }
-/* .oficial-somos {
-    width:100%;
-   
-    display:flex;
-    padding:0 34.2em;
-    justify-content:space-between;
-    align-items:center;
-    background-color: darkcyan;
-    grid-column:1/ span 3;
-    
+ .oficial-somos {
+   text-transform: uppercase;
 
    }
-   .oficial-somos h1 {
-       margin-left:-450px;
-       width:auto;
-       font-size:2.5vw;
-   }
-
-   .oficial-negocio{
-      
-    display:flex;
-    justify-content:center;
-    align-items:center;
-     
-   }
+ 
    .oficial-negocio h1 {
-       margin-left:-150px;
+     text-transform:uppercase;
    }
 
-   .contenedor-transition
-   {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-   } */
  .textTransition {
  
-    
+   
      width:220px;;
      height: 40px;
      color:black;
@@ -164,16 +116,33 @@
         
     }
 }
+.contacto-comercial {
+    width:100%;
+    
+    display:flex;
+    justify-content: center;
+    margin-bottom:30px;
+    }
 
-/* ASOCIADOS CASH FARAM NOD */
+.contacto-comercial p  
+{
+    font-weight: 600;
+    font-size:18px;
+}
+.contacto-comercial p a
+{
+    font-weight: 600;
+    font-size:18px;
+    color:var( --color-narmaster);
+}
+/* ASOCIADOS CASH FARM NOD */
 .contenedor-item-slide
 {
-    
+   
     width:100%;
     height:100vh;
-  
-    
-   background-color:darkcyan;
+     
+   
    padding:10px 250px;
     
 
@@ -214,6 +183,8 @@
     
     border:none;
     width:100%;
+    text-transform:uppercase;
+    letter-spacing: 5px;
     background-color: none;
     cursor:pointer;
     border-bottom: 3px solid darkblue;
@@ -231,8 +202,11 @@
     width:350px;
     height:250px;
     display:flex;
+    flex-direction:column;
+    text-align:center;
+    
     padding:10px;
-    border-top:3px solid black;
+    border-top:3px solid darkblue;
     justify-content: center;
     align-items:center;
     box-shadow: 5px 3px 10px #888888; 
@@ -240,9 +214,18 @@
     transition:1s ease;
     
 }
+.itemslidefondo1 p:nth-child(1){
+    margin-bottom:25px;
+    font-size:25px;
+    font-weight:bold;
+    border-bottom:2px solid darkblue;
+    
+}
 .itemslide2 button {
     border:none;
     width:100%;
+    text-transform:uppercase;
+    letter-spacing: 5px;
     background-color: none;
     cursor:pointer;
     border-bottom: 3px solid darkgreen;
@@ -264,24 +247,36 @@
     
 }
 .itemslidefondo2{
-   position:absolute;
-    top:0;
+    position:absolute;
     background-color:white;
+    top:0;
     width:350px;
     height:250px;
     display:flex;
+    flex-direction:column;
+    text-align:center;
+    
     padding:10px;
-    border-top:3px solid black;
+    border-top:3px solid darkgreen;
     justify-content: center;
     align-items:center;
-    box-shadow: 5px 3px 10px #888888;
-    transition:1s ease;
+    box-shadow: 5px 3px 10px #888888; 
     z-index:-1;
+    transition:1s ease;
+    
+}
+.itemslidefondo2 p:nth-child(1){
+    margin-bottom:25px;
+    font-size:25px;
+    font-weight:bold;
+    border-bottom:2px solid darkgreen;
     
 }
 .itemslide3 button {
     border:none;
     width:100%;
+    text-transform:uppercase;
+    letter-spacing: 5px;
     background-color: none;
     cursor:pointer;
     border-bottom: 3px solid lightblue;
@@ -303,17 +298,27 @@
 }
 .itemslidefondo3{
     position:absolute;
-    top:0;
     background-color:white;
+    top:0;
     width:350px;
     height:250px;
     display:flex;
+    flex-direction:column;
+    text-align:center;
+    
     padding:10px;
-    border-top:3px solid black;
+    border-top:3px solid lightblue;
     justify-content: center;
     align-items:center;
-    box-shadow: 5px 3px 10px #888888;
-    transition:1s ease;
+    box-shadow: 5px 3px 10px #888888; 
     z-index:-1;
+    transition:1s ease;
+    
+}
+.itemslidefondo3 p:nth-child(1){
+    margin-bottom:25px;
+    font-size:25px;
+    font-weight:bold;
+    border-bottom:2px solid lightblue;
     
 }
