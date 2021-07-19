@@ -126,6 +126,8 @@ navegador.addEventListener("click", ()=>{
           itemslidefondo3.classList.toggle("vista")
           })
 
+          AOS.init();
+
 })
 
 
