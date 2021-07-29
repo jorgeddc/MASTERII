@@ -17,9 +17,8 @@
     top: 5px;
     margin-bottom:10px; 
     transition:0.4s;
+}
 
-
-} 
 
 .empresaDescripcion
 
@@ -50,6 +49,18 @@
 .titular {
     margin:30px;
     text-transform:uppercase;
+}
+
+.contenedor-SCT{
+   width:100%;
+   
+    position:relative;
+    left:100px;
+    z-index:1500;
+    display:flex;
+    flex-direction:column;
+  
+
 }
  .S {
     color: var(--color-white);
@@ -245,6 +256,43 @@
     }
 }
 
+.arrow-up.active{
+    font-size:45px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color:grey;
+    position:absolute;
+    bottom:0;
+    right:4.5px;
+    position:fixed;
+    padding:0.5em;
+    animation:mov 0.9s linear infinite;
+    width:25px;
+    height:25px;
+    border:3px solid var(--color-narmaster);
+    border-radius:150px;
+    cursor:pointer;
+    text-decoration: none;
+    
+}
+
+.arrow-up
+ {
+    display:none;
+
+  }
+
+
+
+@keyframes mov-destin {
+    from {
+         bottom:-5px
+     }
+     to {
+         bottom:0px;
+     }
+ }
 
 
 

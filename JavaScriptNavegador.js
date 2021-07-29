@@ -5,6 +5,8 @@ const navegador=document.getElementById("navegador")
 const itemslidefondo1 = document.querySelector(".itemslidefondo1")
 const itemslidefondo2 = document.querySelector(".itemslidefondo2")
 const itemslidefondo3 = document.querySelector(".itemslidefondo3")
+const arrowApear = document.querySelector(".arrow-up")
+const home = document.querySelector(".home")
 
 let cont=0;
 
@@ -128,7 +130,19 @@ navegador.addEventListener("click", ()=>{
 
           AOS.init();
 
+ window.addEventListener('scroll', fixNav)
+
+function fixNav() {
+    if(window.scrollY > home.offsetHeight + 50) {
+        arrowApear.classList.add('active')
+    } else {
+        arrowApear.classList.remove('active')
+    }
+}
+
 })
+
+
 
 
 

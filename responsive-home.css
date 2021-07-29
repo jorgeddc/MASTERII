@@ -24,7 +24,13 @@
                      width:100%;
                      display:flex;
                      justify-content: center;
-                 }     
+                 }   
+                 
+                 .contenedor-SCT{
+                     justify-content: center;
+                     align-items:center;
+                     left:50px;
+                 }
        
                 .S  ,.C {
                     font-size:7.5vw;
