@@ -1,13 +1,30 @@
+.partners{
+    width:100%;
+    height:70vh;
 
+}
+
+.contenedorSlide {
+   
+    width:100%;
+    height:70vh;
+    display:flex;
+    justify-content: space-between;
+    align-items:start;
+    position:relative;
+    z-index: 150;
+    
+    
+}
 
   .contenedor-paragraph {
-    margin-top:150px;
-     width:100%;
+    margin-bottom:75px;
+    width:100%;
     height:200px;
-    /* background-color:darkgoldenrod; */
     display:flex;
     justify-content:center;
-    align-items:center;
+    align-items:flex-end;
+    
   }
 .contenedor-paragraph div {
     margin-left:20px;
@@ -19,6 +36,7 @@
  
    .oficial-negocio h1 {
      text-transform:uppercase;
+      
    }
 
  .textTransition {
@@ -121,7 +139,7 @@
     
     display:flex;
     justify-content: center;
-    margin-bottom:30px;
+    margin-bottom:100px;
     }
 
 .contacto-comercial p  
@@ -140,28 +158,12 @@
 {
    
     width:100%;
-    height:100vh;
-     
-   
-   padding:10px 250px;
+    height:70vh;
+    padding:10px 250px;
     
 
 }
-.contenedorSlide {
-   
-    width:100%;
-    height:100vh;
-    display:flex;
-    justify-content: space-between;
-    align-items:start;
-    position:relative;
-    z-index: 150;
-    
-  
-  
-    
 
-}
 .contenedorSlide img {
     width:350px;
     height:250px;
