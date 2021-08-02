@@ -1,10 +1,22 @@
-.partners{
+.partners
+{
     width:100%;
     height:70vh;
 
+}.partners::before
+{    margin-top:5px;
+     content:"";
+    width:100%;
+    height:100vh;
+    background-color: rgb(129, 125, 125,0.2);
+    position:absolute;
+    clip-path: polygon(0 0, 45% 0, 100% 100%, 0% 100%);
+  
 }
 
-.contenedorSlide {
+
+.contenedorSlide
+ {
    
     width:100%;
     height:70vh;
@@ -13,9 +25,9 @@
     align-items:start;
     position:relative;
     z-index: 150;
-    
-    
 }
+
+
 
   .contenedor-paragraph {
     margin-bottom:75px;
@@ -28,6 +40,8 @@
   }
 .contenedor-paragraph div {
     margin-left:20px;
+    margin-top:150px;
+    transition:0.5s ease-in-out;
 }
  .oficial-somos {
    text-transform: uppercase;
@@ -41,6 +55,7 @@
 
  .textTransition {
  
+    position:relative;
    
      width:220px;;
      height: 40px;
@@ -53,6 +68,7 @@
      animation:colorFondo 5s ease infinite; 
      border-radius:40px;
     margin-left:-460px;
+    
  }
          
    

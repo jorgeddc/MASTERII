@@ -119,6 +119,7 @@ navegador.addEventListener("click", ()=>{
   })
 
   document.querySelector(".itemslide1").addEventListener("click",()=>{
+     console.log("click")
   itemslidefondo1.classList.toggle("vista")
   })
   document.querySelector(".itemslide2").addEventListener("click",()=>{
@@ -135,8 +136,20 @@ navegador.addEventListener("click", ()=>{
 function fixNav() {
     if(window.scrollY > home.offsetHeight + 50) {
         arrowApear.classList.add('active')
-    } else {
+        document.querySelector(".contenedorNR").style.display="none"
+        document.querySelector(".contenedorNavegador").style.top="-55px"
+        
+
+           
+    } 
+    
+        else {
         arrowApear.classList.remove('active')
+        document.querySelector(".contenedorNR").style.display="flex"
+        document.querySelector(".contenedorNavegador").style.top="0px"
+
+
+
     }
 }
 
