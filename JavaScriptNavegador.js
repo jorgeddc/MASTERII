@@ -133,27 +133,33 @@ navegador.addEventListener("click", ()=>{
 
  window.addEventListener('scroll', fixNav)
 
-function fixNav() {
-    if(window.scrollY > home.offsetHeight + 50) {
+function fixNav()
+ {
+    if(window.scrollY > home.offsetHeight + 800) {
         arrowApear.classList.add('active')
-        document.querySelector(".contenedorNR").style.display="none"
-        document.querySelector(".contenedorNavegador").style.top="-55px"
-        
-
-           
-    } 
+        document.querySelector(".contenedorNR").style.top="-45px"
+        document.querySelector(".contenedorNavegador").style.top="-35px"
+    
+        } 
     
         else {
         arrowApear.classList.remove('active')
-        document.querySelector(".contenedorNR").style.display="flex"
+        document.querySelector(".contenedorNR").style.top="0px"
         document.querySelector(".contenedorNavegador").style.top="0px"
+      
 
+        
+ }
+ if(window.scrollY > home.offsetHeight + 100)
+{
+document.querySelector(".itemNavegador").style.color="red"
+}
 
-
-    }
 }
 
 })
+
+
 
 
 
