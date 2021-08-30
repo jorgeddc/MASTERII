@@ -76,8 +76,11 @@ z-index:1;
         align-items:center;
         position:relative;
       }
-      
-      .contenedor-paragraph div:nth-child(1)
+      .contenedor-item-slide{
+        width:50%;
+      }
+     
+            .contenedor-paragraph div:nth-child(1)
       {   
          margin-top:40px;
 
