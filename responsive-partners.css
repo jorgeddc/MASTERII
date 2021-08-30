@@ -18,7 +18,7 @@
  }
  .itemslidefondo1.vista
 {
-   z-index:1555;
+   z-index:1;
   
 } 
 
@@ -54,6 +54,16 @@ z-index:1;
 
   top:-100px;
 }
+.contenedor-SCT {
+ position:relative;
+ top:0;
+ 
+
+}
+.contenedor-descripcion-parrafos{
+ position:relative;
+ top:-100px;
+}
   .contenedor-paragraph {
         
         width:100%;
@@ -62,6 +72,7 @@ z-index:1;
         display:flex;
         flex-direction: column;
         justify-content:flex-end;
+        margin-top:50px;
         align-items:center;
         position:relative;
       }
@@ -72,7 +83,7 @@ z-index:1;
 
           padding:40px;
           text-align: center;
-         
+          
       }
       .contenedor-paragraph div:nth-child(2)
       {
