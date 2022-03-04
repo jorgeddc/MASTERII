@@ -4,6 +4,7 @@
 @import url(partners.css);
 @import url(responsive-partners.css);
 
+
 /* @import url(servicios.css);
 @import url(contacto.css);
 @import url(copyright.css); */
@@ -14,6 +15,11 @@
     box-sizing: border-box;
     font-family: 'Titillium Web', sans-serif;
       scroll-behavior: smooth;
+}
+
+body {
+    width:auto;
+    height:auto;
 }
 :root {
     --color-narmaster: #f27d0c;
