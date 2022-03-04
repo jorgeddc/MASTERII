@@ -467,7 +467,7 @@
     @media screen and (max-width:500px){
 
         .contenedor-home{
-        min-width:500px;
+        min-width:360px;
         top:55px;
         background-position:center;
 
@@ -477,7 +477,7 @@
 
         .contenedor-navegador-responsive {
         display:flex;
-        width:500px;
+        width:360px;
         height:20px;
         align-items:end;
         background-color:#fff;
@@ -488,7 +488,7 @@
         }
 
         .contenedor-responsive{
-            width:500px;
+            width:360px;
             height:0px;
             position:relative;
            
