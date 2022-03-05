@@ -137,7 +137,7 @@
   .partners::before
   {    margin-top:5px;
        content:"";
-      width:var(--tam-responsive);
+      width:500px;
       height:50vh;
       background-color: rgb(129, 125, 125,0.2);
       position:absolute;
